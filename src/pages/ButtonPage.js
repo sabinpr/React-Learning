@@ -2,13 +2,11 @@ import { GoBellFill, GoDownload, GoDatabase } from "react-icons/go";
 import Button from "../components/Button";
 
 function ButtonPage() {
-  const handleClick = () => {
-    console.log("Button clicked!");
-  };
+  const handleClick = () => {};
   return (
     <div>
       <div>
-        <Button success rounded outline className="mb-5" onClick={handleClick}>
+        <Button success rounded outline className="mb-1" onClick={handleClick}>
           {" "}
           <GoBellFill /> Success{" "}
         </Button>
